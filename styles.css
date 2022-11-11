@@ -5,8 +5,6 @@
 .color-theme_22-Theme-Draft-3-hex { color: #1790BF; }
 .color-theme_22-Theme-Draft-4-hex { color: #59C1D9; }
 .color-theme_22-Theme-Draft-5-hex { color: #F2D399; }
-
-
 *{
     margin: 0;
     padding: 0;
@@ -30,12 +28,13 @@
     font-size: 7rem;
     margin-top: 12px; 
     margin-bottom: 12px;
+    
+    white-space: initial;
     color:#ffffff;
     outline: black;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(77, 72, 58);
 }
-
 button{
     margin-left: 12px;
     border: none;
@@ -43,6 +42,7 @@ button{
     border:2px solid #0D4C73;
     background-color: #0D4C73;
     color: #fdfdfd;
+    overflow-wrap: break-word;
     font-size: 17px;
     cursor: pointer;
     transition: background-color 0.4s,color 0.4s;
@@ -50,23 +50,11 @@ button{
 .x2,.x3{
     margin-top: 12px;
 }
-
-
 button:hover{
     background-color: white;
     color: #0D4C73;
-
 }
-
-
-
-
-
-
-
-
 @media screen and (max-width: 650px) {
-   
     .counter{
         font-size: 5rem;
     }
@@ -80,7 +68,6 @@ button:hover{
     }
   }
   @media screen and (max-width: 450px) {
-   
     .counter{
         font-size: 3rem;
     }
