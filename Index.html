@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
     <div class="container">
     <h1 class="counter">COUNTER</h1>
-    <div class="outputDisp">3</div>
+    <div class="outputDisp">0</div>
     <div class="buttons">
-        <button class="decrease">DECREASE</button>
-        <button class="reset">RESET</button>
-        <button class="increase">INCREASE</button>
+        <button onclick="decrease()" class="decrease">DECREASE</button>
+        <button onclick="reset()" class="reset">RESET</button>
+        <button onclick="increase()" class="increase">INCREASE</button>
     </div>
+    <div class="buttons">
+        <button onclick="multiplTwo()" class="x2">X2</button>
+        <button onclick="multiplThree()" class="x3">X3</button>
+    </div>
+
     </div>
 </body>
 </html>

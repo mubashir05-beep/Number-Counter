@@ -23,13 +23,73 @@
 }
 .counter{
     font-size: 8rem;
-    /* 2-3 rem for mobile responsive  655px for mobile responsive -5rem*/
+    /* 2-3 rem for mobile responsive  655px for tablet responsive -5rem*/
     color: #0D4C73;
 }
 .outputDisp{
-    font-size: 6rem;
+    font-size: 7rem;
+    margin-top: 12px; 
+    margin-bottom: 12px;
+    color:#ffffff;
+    outline: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(77, 72, 58);
+}
+
+button{
+    margin-left: 12px;
+    border: none;
+    padding: 6px 12px;
+    border:2px solid #0D4C73;
+    background-color: #0D4C73;
+    color: #fdfdfd;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.4s,color 0.4s;
+}
+.x2,.x3{
     margin-top: 12px;
 }
-.buttons{
-    margin-top: 12px;
+
+
+button:hover{
+    background-color: white;
+    color: #0D4C73;
+
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+   
+    .counter{
+        font-size: 5rem;
+    }
+    .outputDisp{
+        font-size: 7rem;
+    }
+    button{
+        margin-left: 8px;
+        padding: 4px 8px;
+        font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+   
+    .counter{
+        font-size: 3rem;
+    }
+    .outputDisp{
+        font-size: 3rem;
+    }
+    button{
+        margin-left: 8px;
+        padding: 4px 6px;
+        font-size: 12px;
+    }
+  }
