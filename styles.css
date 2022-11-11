@@ -1,0 +1,35 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+ /* Color Theme Swatches in Hex */
+.color-theme_22-Theme-Draft-1-hex { color: #0D4C73; }
+.color-theme_22-Theme-Draft-2-hex { color: #0D5673; }
+.color-theme_22-Theme-Draft-3-hex { color: #1790BF; }
+.color-theme_22-Theme-Draft-4-hex { color: #59C1D9; }
+.color-theme_22-Theme-Draft-5-hex { color: #F2D399; }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+}
+/* For Container, Text, & OUTPUT CSS */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 100vh;
+    align-items: center;
+}
+.counter{
+    font-size: 8rem;
+    /* 2-3 rem for mobile responsive  655px for mobile responsive -5rem*/
+    color: #0D4C73;
+}
+.outputDisp{
+    font-size: 6rem;
+    margin-top: 12px;
+}
+.buttons{
+    margin-top: 12px;
+}
